@@ -1,7 +1,11 @@
 **Purpose:**
 - Company has multiple orgs of Datadog and needs to pull Billage metrics for hosts and containers into their "main" org.
   
-  
+**Basics:** 
+- Api to pull host and container metrics from specific org
+- Sum each org host metric and container metric for total of hosts and containers
+- Send custom metric to "main org" for each org and total hosts and total containers
+ 
 *Both files should be in the same directory*
 
 **Files:**
