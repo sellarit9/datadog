@@ -27,4 +27,5 @@
         - purpose: send custom metric to DD into "main org"
         
 **Flow**
-![alt text](https://github.com/sellarit9/datadog/HostScriptFlow.png)
+![IMAGE](https://raw.githubusercontent.com/sellarit9/datadog/master/HostScriptFlow.png)
+
