@@ -25,3 +25,6 @@
         
     - **sendMetricToDD(Main Org Name, apikey, appkey, metric name, value)**
         - purpose: send custom metric to DD into "main org"
+        
+**Flow**
+![alt text](https://github.com/sellarit9/datadog/HostScriptFlow.png)
