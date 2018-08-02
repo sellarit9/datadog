@@ -14,15 +14,15 @@
       Org: conatins metadata of org
 
   **methods/functions**
-      getHostData(apikey,appkey)
+    getHostData(apikey,appkey)
         purpose: pull host and container billable usage for host
         returns: json of data
         Note: as of the creation of this script (July 2018), "This is not yet supported by the Python Client for Datadog API"
                 code was written from scratch to accomplish this call. Potentially could need to be updated or in time could                    have the API availave in Python
 
-      storeHostDataInOrg(Org Object, Data array)
+   storeHostDataInOrg(Org Object, Data array)
         purpose: save data into Org Object
         
-      sendMetricToDD(Main Org Name, apikey, appkey, metric name, value)
+   sendMetricToDD(Main Org Name, apikey, appkey, metric name, value)
         purpose: send custom metric to DD into "main org"
 
