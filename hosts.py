@@ -83,7 +83,7 @@ while i < len(orgs):
 	sendMetricToDD(mainOrgName,mainOrgApiKey, mainOrgAppKey,orgs[i].name+".total.containers",orgs[i].containerCount)
 	i+=1
 
-sendMetricToDD(mainOrgName,mainOrgApiKey, mainOrgAppKey,"tc.all.hosts.active",totalHosts)
-sendMetricToDD(mainOrgName,mainOrgApiKey, mainOrgAppKey,"tc.all.containers.active",totalContainers)
+sendMetricToDD(mainOrgName,mainOrgApiKey, mainOrgAppKey,"[custom metric for total hosts]",totalHosts)
+sendMetricToDD(mainOrgName,mainOrgApiKey, mainOrgAppKey,"[custom metric for total containers]",totalContainers)
 
 
