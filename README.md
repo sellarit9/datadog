@@ -3,6 +3,7 @@
   
   
 *Both files should be in the same directory*
+
 **Files:**
 - **hostInfo.txt** - comma seperated file with the format of [name],[apikey],[appkey]
     in the list of orgs, the top one in this file will be the "main org"
@@ -24,4 +25,3 @@
         
     - **sendMetricToDD(Main Org Name, apikey, appkey, metric name, value)**
         - purpose: send custom metric to DD into "main org"
-
