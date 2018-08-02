@@ -5,6 +5,7 @@
 - Api to pull host and container metrics from specific org
 - Sum each org host metric and container metric for total of hosts and containers
 - Send custom metric to "main org" for each org and total hosts and total containers
+- **Data can be up to 72 hours delayed** https://docs.datadoghq.com/api/?lang=python#get-hourly-usage-for-hosts-and-containers
  
 *Both files should be in the same directory*
 
